@@ -14,6 +14,8 @@
 
     git clone https://github.com/xiv3r/Nessus_Professional.git
 
+    cd Nessus_Professional
+
     wget https://github.com/xiv3r/Nessus_Professional/releases/download/Nessus/backup-image-ramisec_nessus.tar.gz
     
     sudo docker pull ramisec/nessus
@@ -28,20 +30,20 @@
     sudo docker exec -it nessus /bin/bash /nessus/update.sh
 
 
-### Username & Password
+### Username & Password settings 
 
-Resetting the Password by running 
+Reset the Password
 
     sudo docker exec -it nessus /opt/nessus/sbin/nessuscli chpasswd
 
 
-Add New User and Password:
+Login: `admin`
 
-Login to change: `admin`
+Add New Password:
 
-New password: `Password123!`
+New password: `password`
 
-New password (again): `Password123!`
+Verify new password: `password`
 
 
-## Now open [Google Chrome](https://localhost:8834)
+### Go to 👉 [BROWSER](https://localhost:8834)
