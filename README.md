@@ -46,4 +46,4 @@ New password: `password`
 Verify new password: `password`
 
 
-### Go to 👉 [BROWSER](https://localhost:8834)
+### Go to 👉 [BROWSER](https://localhost:8834) or copy `https://localhost:8834/` and paste into the browser.
